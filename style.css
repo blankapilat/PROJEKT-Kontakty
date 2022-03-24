@@ -41,11 +41,11 @@ body {text-align: center;}
 
 @media screen and (min-width: 540px) {
 	.Jarmila, .Klotylda, .Lucinda, .Magdalena {
-		flex-basis: 46%;}
+		flex: 1 1 calc((100% - 80px) / 2);}
 }
 
 @media screen and (min-width: 960px) {
 	.Jarmila, .Klotylda, .Lucinda, .Magdalena {
-		flex-basis: 23%;}
+		flex: 1 1 calc((100% - 80px) / 4);}
 }
 
